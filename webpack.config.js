@@ -14,12 +14,13 @@ module.exports = {
     publicPath: '/static/'
   },
   resolve: {
-    extensions: ['.js', '.ts', '.tsx']
+    extensions: ['.js', '.ts', '.tsx'],
+    alias: { mobx: __dirname + "/node_modules/mobx/lib/mobx.es6.js" }
   },
   module: {
     rules: [{
       test: /\.tsx?$/,
-      loader: "awesome-typescript-loader",
+      loader: "ts-loader",
       include: path.join(__dirname, 'src')
     }]
   }
