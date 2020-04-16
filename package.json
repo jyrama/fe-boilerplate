@@ -16,17 +16,17 @@
   "license": "MIT",
   "homepage": "http://mobxjs.github.com/mobx",
   "devDependencies": {
-    "@types/react-dom": "^16.9.4",
-    "ts-loader": "6.2.1",
-    "typescript": "^3.7.2",
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.8.2"
+    "@types/react-dom": "^16.9.6",
+    "ts-loader": "7.0.0",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
-    "mobx": "^5.15.1",
-    "mobx-react": "^6.1.4",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.2.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
