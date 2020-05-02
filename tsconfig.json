@@ -5,7 +5,9 @@
     "experimentalDecorators": true,
     "jsx": "react",
     "outDir": "dist",
-    "lib": ["dom", "es2015"]
+    "lib": ["dom", "es2015"],
+    "sourceMap": true,
+    "resolveJsonModule": true
   },
   "exclude": [
     "node_modules",
